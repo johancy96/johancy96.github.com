@@ -1,12 +1,12 @@
 @font-face {
     font-family: Azonix;
-    src: url(/fonts/azonix-font/Azonix-1VB0.otf);
+    src: url(./fonts/azonix-font/Azonix-1VB0.otf);
 }
 @font-face {
     font-family: Aquire;
-    src: url(/fonts/aquire-font/Aquire-BW0ox.otf),
-         url(/fonts/aquire-font/AquireBold-8Ma60.otf),
-         url(/fonts/aquire-font/AquireLight-YzE0o.otf);
+    src: url(./fonts/aquire-font/Aquire-BW0ox.otf),
+         url(./fonts/aquire-font/AquireBold-8Ma60.otf),
+         url(./fonts/aquire-font/AquireLight-YzE0o.otf);
 }
 
 body{
@@ -18,7 +18,7 @@ body{
 
 header{
     height: 500px;
-    background-image: url("/img/Header-Fondo.jpg");
+    background-image: url("./img/Header-Fondo.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }

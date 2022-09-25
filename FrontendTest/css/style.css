@@ -66,6 +66,11 @@ header{
 
 /*holograma*/
 /*anim holograma*/
+.hologram-content{
+    position: absolute;
+    display: none;
+}
+
 .light-hologram{
     background: linear-gradient(360deg, rgb(44 173 199 / 75%), rgba(255,0,0,0) 43.71%), linear-gradient(360deg, rgb(187 90 205 / 64%), rgba(0,255,0,0) 67.71%), linear-gradient(360deg, rgb(75 75 141 / 72%), rgba(0,0,255,0) 99.71%);
     width: 55%;
@@ -239,8 +244,9 @@ header{
 
 /*play holograma*/
 .play-container{
+    position: relative;
+    top: 390px;
     margin: auto;
-    margin-top: 161px;
     width: 10%;
     background-color: rgb(38 18 33 / 54%);
     border-top-left-radius: 30px;

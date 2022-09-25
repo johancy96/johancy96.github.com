@@ -24,15 +24,15 @@ header{
 }
 /*nav menu*/
 .nav-container nav ul{
- padding: 10px 20px 10px 20px;   
- margin: auto;
- display: flex;
- justify-content: center;
- gap: 100px;
- background-color: rgb(38 18 33 / 54%);
- box-shadow: 0px 9px 18px -6px;
- border-bottom-left-radius: 30px;
- border-bottom-right-radius: 30px;
+    padding: 10px 20px 10px 20px;   
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: rgb(38 18 33 / 54%);
+    box-shadow: 0px 9px 18px -6px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 .nav-item{
